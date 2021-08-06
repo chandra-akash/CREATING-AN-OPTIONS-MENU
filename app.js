@@ -8,7 +8,7 @@ var books = [ 'To Kill a Mockingbird  by  Harper Lee', 'The Great Gatsby  by  F.
 
 function recursion ()
 {
-    readline1.question( "Press 1, 2 or 3 : ", function ( numberOption )
+    readline1.question( "Press 1 (Show all books), 2 (Add a new book) or 3 (Quit) : ", function ( numberOption )
     {
         // console.log( 'numberOption: ', numberOption );
         if ( numberOption == 1 )
